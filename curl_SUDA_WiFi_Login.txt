@@ -1,0 +1,1 @@
+curl "http://10.9.1.3:801/eportal/?c=Portal&a=login&callback=dr1003&login_method=1&user_account=20234227083@zgyd&user_password=suda@Akihi0323&wlan_user_ip=$(ifconfig wan | grep 'inet addr:' | cut -d: -f2 | awk ' {print $1}')"
