@@ -22,7 +22,7 @@ except IOError as err:
     print("配置文件错误")
     print("File error:"+str(err))
 else:
-    ISP={'中国移动': '@zgyd', '中国电信': '@ctc'}
+    ISP={'中国移动': '@zgyd', '中国电信': '@ctc', '中国联通': '@cucc'}
     headers = {
     'Connection': 'keep-alive',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
